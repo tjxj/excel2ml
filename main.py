@@ -21,3 +21,5 @@ model.fit(X_train, y_train)
 
 
 code = m2c.export_to_visual_basic(model, function_name = 'pred')
+
+print(code)
